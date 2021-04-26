@@ -1,38 +1,103 @@
-.App {
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightslategray;
+}
+html {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+h1 {
+  font-size: 30px;
+}
+.HeadBlog {
   text-align: center;
+  background-color: white;
+  padding: 40px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.HeadBlog h4 {
+  padding-top: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.LinkBar {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: black;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.LinkBar button {
+  background-color: black;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.Row-Body {
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.article-bod {
+  width: 50%;
+  background-color: white;
+  margin-top: 10px;
+}
+.article-bod div {
+  height: 120px;
+  margin: 20px 10px 20px 10px;
+  background-color: grey;
+}
+.article-bod p {
+  padding: 20px 10px 20px 10px;
+}
+
+h2 {
+  padding: 20px;
+}
+h4 {
+  padding: 20px 0px 0px 20px;
+}
+
+.Abt-Me {
+  background-color: white;
+  width: 30%;
+  height: 380px;
+  margin: 10px 10px 20px 10px;
+}
+
+.Abt-Me div {
+  background-color: grey;
+  height: 50px;
+  margin: 20px 10px 20px 10px;
+}
+
+.Abt-Me p {
+  margin: 20px 10px 20px 10px;
+  padding-bottom: 20px;
+}
+
+.Row-Body {
+  display: flex;
+  justify-content: space-between;
+  align-content: stretch;
+}
+
+.Footer-bod {
+  background-color: lightgrey;
+  text-align: center;
+  margin-top: 20px;
+  height: 80px;
+  vertical-align: baseline;
+}
+
+.Footer-bod p {
+  padding-top: 20px;
 }
